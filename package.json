@@ -1,5 +1,5 @@
 {
-  "name": "remix-auth-microsoft",
+  "name": "@bzsklvnt/-auth-microsoft",
   "version": "2.0.0",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -24,44 +24,37 @@
     "README.md"
   ],
   "peerDependencies": {
-    "@remix-run/server-runtime": "^1.0.0"
+    "@remix-run/server-runtime": "^2.0.1",
+    "remix-auth": "^3.2.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.2",
-    "@babel/preset-env": "^7.14.1",
-    "@babel/preset-react": "^7.13.13",
-    "@babel/preset-typescript": "^7.13.0",
-    "@remix-run/node": "^1.0.3",
-    "@remix-run/react": "^1.1.1",
-    "@remix-run/server-runtime": "^1.0.0",
-    "@types/jest": "^26.0.23",
-    "@typescript-eslint/eslint-plugin": "^4.23.0",
-    "@typescript-eslint/parser": "^4.23.0",
-    "babel-jest": "^26.6.3",
-    "eslint": "^7.26.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-jest": "^24.3.6",
-    "eslint-plugin-jest-dom": "^3.9.0",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-unicorn": "^32.0.1",
-    "jest": "^26.6.3",
-    "jest-fetch-mock": "^3.0.3",
-    "prettier": "^2.3.2",
-    "react": "^17.0.2",
-    "ts-node": "^9.1.1",
-    "typescript": "^4.3.5"
+    "@remix-run/node": "^2.0.1",
+    "@remix-run/react": "^2.0.1",
+    "@remix-run/server-runtime": "^2.0.1",
+    "@types/jest": "^27.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
+    "@typescript-eslint/parser": "^5.8.1",
+    "babel-jest": "^27.4.5",
+    "eslint": "^8.5.0",
+    "eslint-config-galex": "^3.5.3",
+    "husky": ">=6",
+    "lint-staged": ">=12.1.4",
+    "prettier": "^2.5.1",
+    "react": "^18.2.0",
+    "remix-auth": "^3.2.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^5.2.2"
   },
   "dependencies": {
-    "remix-auth": "^3.0.0",
-    "remix-auth-oauth2": "^1.0.0"
+    "remix-auth-oauth2": "^1.11.0"
   },
-  "author": "Juhana Jauhiainen <juhana.jauhiainen@gmail.com>",
+  "author": "Levente Bozsoki <levbozsoki@gmail.com>",
   "bugs": {
-    "url": "https://github.com/juhanakristian/remix-auth-microsoft/issues"
+    "url": "https://github.com/bzsklvnt/remix-auth-microsoft/issues"
   },
-  "homepage": "https://github.com/juhanakristian/remix-auth-microsoft#readme",
+  "homepage": "https://github.com/bxsklvnt/remix-auth-microsoft#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juhanakristian/remix-auth-microsoft.git"
+    "url": "git+https://github.com/bzsklvnt/remix-auth-microsoft.git"
   }
 }
