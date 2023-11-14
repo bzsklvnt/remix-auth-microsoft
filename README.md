@@ -1,5 +1,8 @@
 # MicrosoftStrategy for [Remix](https://remix.run/) using [Remix-Auth](https://github.com/sergiodxa/remix-auth)
 
+The Microsoft strategy is used to authenticate users against an account on [Microsoft Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/develop/) using [Remix-Auth](https://github.com/sergiodxa/remix-auth).
+This can be a work/school account or a personal Microsoft account, like Skype, Xbox and Outlook.com. It extends the OAuth2Strategy.
+
 ## Attribution and Acknowledgments
 This project is a fork of [remix-auth-microsoft](https://github.com/juhanakristian/remix-auth-microsoft) by [juhanakristian](https://github.com/juhanakristian). We are immensely grateful to the original authors for their hard work and dedication in creating a foundation that has inspired our version. Our modifications and extensions are built upon the robust groundwork they established.
 
@@ -10,9 +13,6 @@ We aim to respect the original vision while also adding our unique contributions
 We encourage users and contributors to also explore the original repository to understand the origins of this project and appreciate the collective effort involved in its ongoing development.
 
 In this version we aimed to make changes, so that this project is compatible with @remix-run/server-runtime v2 >.
-
-The Microsoft strategy is used to authenticate users against an account on [Microsoft Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/develop/) using [Remix-Auth](https://github.com/sergiodxa/remix-auth).
-This can be a work/school account or a personal Microsoft account, like Skype, Xbox and Outlook.com. It extends the OAuth2Strategy.
 
 ## Supported runtimes
 
